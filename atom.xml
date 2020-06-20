@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huangtao2020.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-06-20T04:57:01.742Z</updated>
+    <title>黄涛的写作空间</title>
+    <updated>2020-06-20T04:59:15.840Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huangtao2020.github.io"/>
     <link rel="self" href="https://huangtao2020.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>so far, for high.</subtitle>
     <logo>https://huangtao2020.github.io/images/avatar.png</logo>
     <icon>https://huangtao2020.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 黄涛的写作空间</rights>
     <entry>
         <title type="html"><![CDATA[教师节：那些教过我的老师]]></title>
         <id>https://huangtao2020.github.io/post/jiao-shi-jie-na-xie-jiao-guo-wo-de-lao-shi/</id>
