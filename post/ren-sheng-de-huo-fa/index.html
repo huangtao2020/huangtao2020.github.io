@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>人生的活法。 | 黄涛的写作空间</title>
+<link rel="shortcut icon" href="https://huangtao2020.github.io/favicon.ico?v=1592637292976">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://huangtao2020.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="人生的活法。 | 黄涛的写作空间 - Atom Feed" href="https://huangtao2020.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="本文首发微信公众号：2019-05-21
+人生有很多中活法，但我相信，有选择的活法比较不容易后悔。
+《权利的游戏》最终季昨天完结了，最有一集凑合着生肉，囫囵吞枣看完。其中印象最深的是一个词——choice。
+选择是一件让人痛苦的事，因为这意..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://huangtao2020.github.io">
+  <img class="avatar" src="https://huangtao2020.github.io/images/avatar.png?v=1592637292976" alt="">
+  </a>
+  <h1 class="site-title">
+    黄涛的写作空间
+  </h1>
+  <p class="site-description">
+    so far, for high.
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              人生的活法。
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-06-20
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>本文首发微信公众号：2019-05-21</p>
+<p>人生有很多中活法，但我相信，有选择的活法比较不容易后悔。</p>
+<p>《权利的游戏》最终季昨天完结了，最有一集凑合着生肉，囫囵吞枣看完。其中印象最深的是一个词——choice。</p>
+<p>选择是一件让人痛苦的事，因为这意味着放弃。</p>
+<p>而放弃不是人的本能，不断获取才是。</p>
+<p>目标感不强的人，选择会导致拖延。</p>
+<p>有时候要跳出圈子的轮回的，就得做出一些别看生面的选择。</p>
+<p>这些选择更难，却也让人心潮澎湃。</p>
+<p>过程虽苦，但结果尤甜。</p>
+<p>人生的活法有很多，没有谁是圣人，一开始就知道自己的路。</p>
+<p>潜在夜色里，不断摸黑寻路。</p>
+<p>长夜也许慢慢，但光明总该来。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://huangtao2020.github.io/post/zai-jian-long-ma/">
+              <h3 class="post-title">
+                再见，龙妈！
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://huangtao2020.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
